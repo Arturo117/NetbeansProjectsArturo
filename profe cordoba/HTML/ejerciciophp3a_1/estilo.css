@@ -1,0 +1,21 @@
+.contenedor{
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+body{
+    background-color: orange;
+    
+}
+h3{
+   color: red; 
+}
+table, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+strong{
+    font-size: 20px;
+    color: red;
+}

@@ -1,0 +1,136 @@
+body{
+    background-color: white;
+        font-family: sans-serif;
+        
+}
+
+#subtitulo{
+    color: grey
+}
+.contenedor{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+   
+}
+#main{
+     background-color: white;
+}
+
+.caja{
+    float: left;
+    width: 470px;
+    
+    
+}
+#caja input{
+    background-color: gainsboro;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid black;
+   
+}
+#caja #color{
+    color: dodgerblue;
+    font-weight: normal
+}
+
+.caja h1{
+    color: white;
+    font-weight: 100;
+    font-size: 46px;
+    float: left;
+   
+}
+
+.caja h2{
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    float: left;
+    margin-top: 60px;
+}
+.caja input{
+    background-color: #626901;
+    color: white;
+    margin-top: 40px;
+    padding: 5px;
+    border:none;
+    width: 250px;
+   
+}
+.limpiar{
+    clear: both;
+}
+
+#lateral{
+    float: left;
+    width: 240px; 
+   
+}
+.lateral1 h2{
+    background-color: white;
+    color:dodgerblue;
+    font-weight:normal;
+    
+}
+.lateral1{
+    padding: 10px
+}
+.lateral1 p{
+    padding-left: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: black;
+    font-size: 13px;
+}
+.lateral1 ul li {
+    list-style: square;
+    color: black;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px gray;
+    padding-bottom: 5px;
+}
+#centro{
+    width: 640px;
+    float:right;
+    margin-left: 20px;
+   
+}
+.texto{
+    float: left;
+    padding: 5px
+  
+}
+.texto p {
+    color: black;
+    text-align: justify
+}
+.texto h2{
+    color:dodgerblue
+}
+
+.texto p b{
+    color: red;
+}
+.noticia{
+     background-color: white;
+    padding: 4px; 
+    margin-top: 0px;   
+}
+.flotar {
+    float: right;
+}
+#color{
+    color:dodgerblue;
+     
+}
+.flotar b{
+    color: dodgerblue
+}
+.texto p b{
+    color: dodgerblue
+}

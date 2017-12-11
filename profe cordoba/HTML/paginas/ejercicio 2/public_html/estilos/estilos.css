@@ -1,0 +1,109 @@
+body{
+    background-color: gray
+        
+}
+#main {
+    background-color: white
+}
+.contenedor {
+    width: 940;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-right:50px;
+    padding-left: 50px;
+}
+#logo h1 {
+    font-weight: 300
+}
+#logo h2 {
+    font-family: serif;
+    font-style: italic;
+    font-size: 14px;
+    float: left;
+}
+
+.limpiar{
+    clear: both
+}
+#menu{
+    margin-left: -50px;
+    margin-right: -50px;
+    
+}
+#menu ul{
+    background-color: white
+}
+#menu ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+#menu ul li a{
+    color:#4d1000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menu ul li:hover{
+    background-color:#4d1000;
+}
+#lateral {
+    width: 240px;
+    float: left
+}
+.lateral1 h2{
+    background-color: white;
+    color:#4d1000;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.lateral1{
+    padding: 15px
+}
+.lateral1 p{
+    padding-left: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px gray;
+    padding-bottom: 5px;
+}
+.lateral1 ul li {
+    list-style: square;
+    color: gray;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px gray;
+    padding-bottom: 5px;
+}
+#centrar{
+    width: 680px;
+    float:right;
+    margin-left: 20px;
+   
+}
+.texto{
+    float: left;
+    padding: 5px
+  
+}
+.texto p {
+    color: gray
+}
+.texto h2{
+    color:#4d1000 
+}
+.texto .noticia {
+    color: gray;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px gray;
+    padding-bottom: 5px;
+}
+ .noticia b{
+    color: red;
+    text-decoration: underline
+}
+.texto p b{
+    color: red;
+    text-decoration: underline
+}

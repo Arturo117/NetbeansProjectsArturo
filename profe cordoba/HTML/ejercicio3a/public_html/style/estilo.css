@@ -1,0 +1,103 @@
+body{
+     font-family: sans-serif;
+}
+
+#main{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo h1{
+   
+    color: #cc3300;
+    font-weight: 300;
+    float: left;
+}
+#logo h2{
+    font-family: serif;
+    font-style: italic;
+    font-size: 14px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-weight: 200
+}
+.limpiar{
+    clear: both;
+}
+#menu ul {
+    background-color: orange;
+    padding: 5px; 
+    margin-top: 0px;
+        
+}
+#menu ul li{
+    list-style: none;
+    display: inline;
+  
+    padding: 5px;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu ul li:hover{
+    background-color: #cc3300;
+}
+
+#lateral{
+    width: 240px;
+    float: left;
+}
+#central{
+    width: 680px;
+    float:left;
+    margin-left: 20px;
+}
+.cajalateral h2{
+    background-color: orange;
+    color: white;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.cajalateral p{
+    padding-left: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: gray;
+    font-size: 13px;
+}
+#slider img{
+    width: 100%;
+   
+}
+#galeria{
+    text-align: center;
+}
+#galeria img {
+    width: 160px;
+    border: solid 3px bisque;
+}
+.cajalateral ul li{
+    list-style: square;
+    color: gray;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px gray;
+    padding-bottom: 5px;
+   
+   
+}
+.noticia{
+   background-color: #ccccff
+       
+}
+
+.clas0{
+    float: right;
+}
+   
+        
+    
+    
+}

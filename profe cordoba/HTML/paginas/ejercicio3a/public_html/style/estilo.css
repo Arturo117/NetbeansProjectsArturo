@@ -1,0 +1,62 @@
+body{
+    background-color: #cba866;
+        font-family: sans-serif;
+}
+.contenedor{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+      padding-right: 50px;
+    padding-left: 50px;
+   
+}
+#main{
+     background-color: white;
+}
+.caja{
+    float: left;
+    width: 470px;
+  
+    
+}
+.derecha{
+    text-align: right;
+}
+.caja h1{
+    color: white;
+    font-weight: 100;
+    font-size: 46px;
+   
+}
+.caja input{
+    background-color: #626901;
+    color: white;
+    margin-top: 40px;
+    padding: 5px;
+    border:none;
+    width: 250px;
+   
+}
+.limpiar{
+    clear: both;
+}
+#menu{
+    margin-left: -50px;
+    margin-right: -50px;
+}
+#menu ul{
+    background-color: #3f1f12;
+}
+#menu ul li{
+    display: inline-block;
+    padding: 10px 15px;
+
+}
+#menu ul li a{
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+#menu ul li:hover{
+    background-color: #626901;
+}

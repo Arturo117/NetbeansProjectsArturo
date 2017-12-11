@@ -1,0 +1,3 @@
+colspan= indica cuantas columnas ejemplo colspan= "2"
+rowspan= indica cuantas filas    ejemplo roswspan= "5"
+ COLOR.ADOBE.COM

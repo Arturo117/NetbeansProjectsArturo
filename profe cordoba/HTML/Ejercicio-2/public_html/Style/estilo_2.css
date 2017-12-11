@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+        font-family: sans-serif;
+}
+.cajacentral{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+      padding-right: 50px;
+    padding-left: 50px;
+    
+}
+#main{
+   background-color: white; 
+}
+#menu{
+    margin-left: -50px;
+    margin-right: -50px;
+}
+#menu ul {
+    background-color: white;
+}
+#menu ul li{
+    display: inline-block;
+    padding: 15px 15px;
+
+}
+#menu ul li a{
+        color: darkred;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+#menu ul li:hover{
+    background-color: darkred;
+}
+#lateral{
+    width: 240px;
+    float: left;
+    margin-right: 10px;
+}
+#central{
+    width: 660px;
+    float:left;
+    margin-left: 20px;
+    
+}
+.limpiar{
+    clear: both;
+}
+h3{
+    color: darkred;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.borde{
+    border-bottom-style: dotted;
+    border-width: 2px;
+    font-size: 15px;
+    padding: 10px;
+}
+.cajalateral ul li {
+    border-bottom-style: dotted;
+    border-width: 2px; 
+    list-style-type: none;
+    margin-left: -20px;
+    margin-right: 0;
+    padding: 10px;
+    text-decoration: underline;
+    color: black;
+}
+.borde a{
+    color: red;
+}
+.caja p{
+    text-align: justify;
+    line-height: 2;
+    font: sans-serif;
+}
+.caja p a {
+    color: red;
+}
+.cajalateral p{
+    text-align: justify;
+    line-height: 2;
+    font: sans-serif;
+}
+.ultimo p{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}

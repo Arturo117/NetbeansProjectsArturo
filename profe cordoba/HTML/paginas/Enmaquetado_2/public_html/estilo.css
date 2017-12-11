@@ -1,0 +1,9 @@
+body{
+    background-color: #cc9900cc9900;
+}
+#contenedor{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}

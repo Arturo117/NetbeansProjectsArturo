@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e3889708-bcb9-4581-ad9a-52fbd202c1c7">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="ClassicModels" uuid="b45f0d5a-bd90-4f80-959d-4d588f8f5f02">
+		<queryString language="SQL">
+			<![CDATA[SELECT
+     count(orderdetails.`productCode`),
+     products.`productLine` AS products_productLine
+FROM
+     `products` products INNER JOIN `orderdetails` orderdetails ON products.`productCode` = orderdetails.`productCode`
+GROUP BY products.`productLine`]]>
+		</queryString>
+		<field name="count(orderdetails.`productCode`)" class="java.lang.Long"/>
+		<field name="products_productLine" class="java.lang.String"/>
+	</subDataset>
+	<queryString>
+		<![CDATA[SELECT
+     count(orderdetails.`productCode`),
+     products.`productLine` AS products_productLine
+FROM
+     `products` products INNER JOIN `orderdetails` orderdetails ON products.`productCode` = orderdetails.`productCode`
+GROUP BY products.`productLine`]]>
+	</queryString>
+	<field name="count(orderdetails.`productCode`)" class="java.lang.Long"/>
+	<field name="products_productLine" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<detail>
+		<band height="351" splitType="Stretch">
+			<barChart>
+				<chart>
+					<reportElement x="0" y="0" width="555" height="136" uuid="bd82cd49-e933-4772-889e-7499a20c7143"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset>
+					<categorySeries>
+						<seriesExpression><![CDATA[$F{products_productLine}]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{products_productLine}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{count(orderdetails.`productCode`)}]]></valueExpression>
+					</categorySeries>
+				</categoryDataset>
+				<barPlot>
+					<plot/>
+					<itemLabel/>
+					<categoryAxisFormat>
+						<axisFormat labelColor="#00FF99"/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat/>
+					</valueAxisFormat>
+				</barPlot>
+			</barChart>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

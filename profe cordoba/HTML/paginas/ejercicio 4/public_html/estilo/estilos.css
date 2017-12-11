@@ -1,0 +1,108 @@
+body{
+    background-color: black
+}
+
+#encabezado{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imagen{
+    
+    float: left;
+    margin-left: -285px;
+     
+}
+.limpiar{
+    clear: both
+}
+#menu ul{
+    background-color: black
+}
+#menu ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+#menu ul li a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menu ul li:hover{
+    background-color:red;
+}
+#main{
+    background-color: white;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-right:50px;
+    padding-left: 50px;
+}
+
+#lateral {
+    width: 240px;
+    float: left;
+    
+}
+.lateral1 h2{
+    background-color: white;
+    color:black;
+    font-weight:normal;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px gray;
+    padding-bottom: 5px;
+    
+}
+.lateral1{
+    padding: 20px
+}
+.lateral1 p{
+    padding-left: 15px;
+    text-align: justify;
+    padding-right: 15px;
+    color: black;
+    font-size: 13px;
+}
+.lateral1 ul li {
+    list-style: square;
+    color: red;
+    padding: 4px
+    
+}
+#centrar{
+    width: 640px;
+    float:right;
+    margin-left: 20px;
+   
+}
+.texto{
+    float: left;
+    padding: 5px
+  
+}
+.texto p {
+    color: black;
+    text-align: justify
+}
+.texto h2{
+    color:black 
+}
+.texto .noticia {
+    color: black;
+   
+}
+ .noticia b{
+    color: red;
+    text-decoration: underline
+}
+.texto p b{
+    color: red;
+}
+
+img{
+    float: left;
+    padding: 5px
+}
